@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <ctype.h>
+#include <limits.h>
 
 #define PRINTF(format) { if (format != NULL) { va_list arguments; va_start(arguments, format); vprintf(format, arguments); va_end(arguments); } }
 
@@ -23,8 +24,7 @@ char* get_string(size_t* length, const char* format, ...)
     }
 
     // Now let's create a pointer to a currently read char value
-    CharNode* entry;
-    entry = head;
+    CharNode* entry = head;
 
     size_t chars_read = 1;
 

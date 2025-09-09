@@ -20,7 +20,7 @@ typedef struct CharNode
 * than SIZE_MAX or if the user hasn't provided any input
 * the function returns NULL
 */
-char* get_string(size_t* length ,const char* format, ...);
+char* get_string(size_t* length, const char* format, ...);
 
 /*
 * This function asks a user to provide a char value

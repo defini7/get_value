@@ -16,5 +16,5 @@ int main()
 
     int n = get_int("Give me your age: ");
 
-    printf("I guess your age is... %d!", n);
+    printf("I guess your age is... %d!\n", n);
 }

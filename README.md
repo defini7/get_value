@@ -1,5 +1,5 @@
 # get_value
-Very useful utility framework that allows you to prompt a string, a char or an int from the stdin
+Very useful utility framework that allows you to prompt a string, a char, or an int from the stdin
 
 # Interface
 1) get_string - returns a string as char* that you need to free yourself
